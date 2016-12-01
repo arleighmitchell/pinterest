@@ -1,8 +1,15 @@
 $body-bg: #bdc3c7;
-$navbar-default-bg: #34495e;
-$btn-primary-bg: #34495e;
+$navbar-default-link-color: #bdc3c7;
+$navbar-default-bg: #2c3e50;
+$btn-primary-bg: #2c3e50;
 $btn-primary-color: #bdc3c7;
+$btn-default-bg: #bdc3c7;
+$btn-default-color: #2c3e50;
 $jumbotron-bg: #ecf0f1;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	color: #2c3e50;
+}
