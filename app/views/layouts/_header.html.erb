@@ -21,6 +21,7 @@
        <li><%= link_to "Other", other_path %></li>
        <% if current_user %>
         <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %></li>
+        <li><%= link_to "Edit", edit_user_registration_path%></li>
        <% end %>
 
       </ul>
